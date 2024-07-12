@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Daily Digest</title>
+    <style>
+        body {
+            font-family: 'League Spartan', sans-serif;
+            background-color: #edf6f9;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        .body-content {
+            padding-top: 50px;
+        }
+        .navbar {
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #edf6f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+        }
+        .logo {
+            font-weight: 900;
+            font-size: 32px;
+            margin-left: 20px;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .navbar a {
+            color: black;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .content {
+            padding-top: 10px;
+        }
+        .headline-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .headline, .right-headline, .middle-headline {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .headline img, .right-headline img, .middle-headline img {
+            width: 100%;
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Ensures aspect ratio is maintained */
+        }
+        #top-line {
+            font-weight: 600;
+            color: black;
+        }
+        #sub1, #sub2, #sub3, #sub4, #sub5, #sub6, #sub7, #sub8, #sub9 {
+            font-weight: 300;
+            color: rgb(81, 81, 81);
+            font-size: 22px;
+        }
+        .footer {
+            background-color: rgb(0, 0, 0);
+            color: #edf6f9;
+            padding: 40px 0;
+            font-size: 14px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .footer-section {
+            margin-right: 50px;
+        }
+        .footer-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        iframe {
+            height: 200px;
+            width: 500px;
+        }
+        #common {
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<header>
+    <nav class="navbar">
+        <div class="links">
+            <a class="logo" href="index.html">DailyDigest.</a><br>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#">Trending</a>
+            <a href="#">Fashion</a>
+            <a href="#">Sports</a>
+            <a href="#">Politics</a>
+            <a href="#">World</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </nav>
+</header>
+<body class="body-content">
+    <h1 id="common">Latest news for you.</h1>
+    <div class="content">
+        <div class="headline-container">
+            <div class="headline">
+                <img src="2.jpg">
+                <h1 id="top-line">Twelfth parades July 2024: English Orangemen who love coming to Northern Ireland for the season</h1>
+                <p id="sub1">
+                    Orangeism is increasingly popular in South East England because people there are feeling somewhat “bereft” of their own culture, a local Orangeman says.
+                    Peter Williamson, who is originally from Castlederg but now lives in Horsham in West Sussex, was not a member of the order until he moved to England 12 years ago.
+                   However, a chance encounter with an English Orangeman led to him joining a lodge and he is now the Worshipful Master of lodge No 848, Sussex Crown Defenders.
+                </p>
+            </div>
+            <div class="middle-headline">
+                <img src="4.jpeg">
+                <h1 id="top-line">American singer-songwriter Dave Loggins dies</h1>
+                <p id="sub2">
+                    Dave Loggins was a country singer and songwriter. He died aged 76 on Wednesday in Nashville in hospice care.
+                    Born and raised in Tennessee, Dave was “one of the state's most notable songwriters,” says American celebrity news website TMZ. He wrote hits for Johnny Cash, Toby Keith, Alabama, Wynonna Judd, Reba McEntire, Willie Nelson, Kenny Rogers, Ray Charles, Smokey Robinson, and Three Dog Night.
+                </p>
+            </div>
+            <div class="right-headline">
+                <img src="5.jpg">
+                <h1 id="top-line">The eleventh night bonfire burns fiercely at the loyalist Sandy Row near Belfast city centre</h1>
+                <p id="sub3">
+                    Watch more of our videos on Shots! 
+                    and live on Freeview channel 276.
+                    Visit Shots! now.
+                    Crowds of onlookers watched the large bonfire blazing in the loyalist Sandy Row.
+                    Many tourists were among those observing the tall structure being set alight just after midnight.
+                    Meanwhile, there was a party atmosphere towards the Sandy Row end of the site, where a disco was blaring music. Many young people were gathered around, drinking and watching the flames.
+                </p>
+            </div>
+        </div>
+        <div class="headline-container">
+            <div class="headline">
+                <img src="6.jpg">
+                <h1 id="top-line">Golf on Ireland's Wild Atlantic Way - it doesn't get much better for me</h1>
+                <p id="sub4">
+                    Last time I visited Ireland to play golf was more than 20 years ago. But after such a memorable trip to County Mayo and County Sligo, I’m sure it won’t be so long before I return. I was part of a group of guests invited by Fáilte Ireland, the national tourism development authority, www.failteireland.ie and Tourism Ireland www.tourismireland.com for a three-day visit in April to help celebrate the 10th anniversary of the Wild Atlantic Way.
+                </p>
+            </div>
+            <div class="middle-headline">
+                <img src="7.jpg">
+                <h1 id="top-line">Dame Shirley Bassey reveals her most glamorous moment with the Queen as she accidentally grabs the King's hand when receiving honour</h1>
+                <p id="sub5">
+                    The Welsh singer, 87, was made a Companion of Honour in the New Year Honours list for her services to music, having become a dame in the 1999 honours list.
+                    After receiving the award today at Windsor Castle, Dame Shirley said it was her first time meeting Charles as King.
+                </p>
+            </div>
+            <div class="right-headline">
+                <img src="8.jpg">
+                <h1 id="top-line">Love Is Blind UK release date announced - with less than a month to go until Netflix dating series begins</h1>
+                <p id="sub6">
+                    Netflix has announced the exact release date of season 1 of 'Love Is Blind UK', which will be presented by Matt and Emma Willis.
+                    Back in March, the streamer revealed that the series would be airing on the platform in the month of August - but since then fans have been waiting for news of the precise air date.
+                    The date was finally released in a teaser trailer uploaded to the Netflix YouTube account earlier today (Thursday July 11). The clip shows Emma and Matt sharing a packet of crisps on a train, when a woman is heard shouting from the toilet.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <ul>
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Press Releases</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <ul>
+          <li>Ananya Tuli</li>
+          <li>ananya.tuli@outlook.com</li>
+          <li>+91 8872173154</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <ul>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03622311755!2d-74.30935047300717!3d40.69753993691164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1720786131712!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+</footer>
+</html>
